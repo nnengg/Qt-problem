@@ -1,0 +1,2 @@
+1、创建.ico文件。将ico图标文件复制到工程文件夹的项目目录中，重命名为“xxxxxx.ico”。然后在该目录中新建文本文档，将文件名重命名为“yyyyyy.rc（文件后缀名为.rc）”，编辑该文档，输入IDI_ICON1 ICON DISCARDABLE "xxxxxx.ico"，保存。
+2、修改项目文件。在Qt Creator中的编辑模式双击xxxxxx.pro文件，在最后添加RC_FILE += yyyyyy.rc。
